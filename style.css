@@ -1,0 +1,480 @@
+body {
+    background-image: url(../images/bg.jpg);
+    background-size: 100% 800px;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    background-attachment: fixed;
+}
+
+/*Start Home page Nav coding*/
+nav {
+    width: 100%;
+    height: 260px;
+    background-color: rgba(0, 0, 0, 0.7);
+    float: left;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+#welcome {
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+#menu {
+    width: 750px;
+    height: 70px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+#nav-item {
+    width: 20%;
+    height: 70px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+/*End Home page Nav Coding*/
+
+/*Start Home page Section Code*/
+#home-section {
+    width: 700px;
+    height: 407px;
+    box-sizing: border-box;
+    float: right;
+    background-image: url(../images/s_bg.png);
+}
+
+#logo {
+    width: 180px;
+    height: 180px;
+    box-sizing: border-box;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+    margin-left: 150px;
+    margin-top: 90px;
+}
+
+#logo-text {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana;
+    color: white;
+    font-size: 160px;
+    margin-top: -20px;
+}
+
+#domain {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: verdana;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 150px;
+}
+
+/*End Home page Section Code*/
+
+/*Start Login page Nav code*/
+#domain_name {
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+
+/*End Login page Nav code*/
+
+/*Start Login page Section Code*/
+#login-fldst {
+    width: 380px;
+    height: 260px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+    margin-left: 180px;
+    padding: 25px;
+}
+
+#login-section {
+    width: 700px;
+    height: 407px;
+    box-sizing: border-box;
+    float: right;
+    background-image: url(../images/s_bg.png);
+    padding: 40px;
+}
+
+legend {
+    font-family: century gothic;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#login-form {
+    font-family: century gothic;
+    color: white;
+    font-size: 22px;
+}
+
+#username {
+    width: 100%;
+    height: 30px;
+    background-color: inherit;
+    border: none;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    margin-top: 10px;
+    color: white;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+#password {
+    width: 100%;
+    height: 30px;
+    background-color: inherit;
+    border: none;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    margin-top: 10px;
+    color: white;
+    font-size: 17px;
+}
+
+#login-btn {
+    width: 130px;
+    height: 40px;
+    float: right;
+    margin-top: 25px;
+    background-color: inherit;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    font-family: century gothic;
+    font-size: 18px;
+}
+
+/*End Login page Secton Code*/
+
+/*Start Signup page Section Code*/
+#signup-fldst {
+    width: 380px;
+    height: 340px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+    margin-left: 180px;
+    padding: 25px;
+    margin-top: -40px;
+}
+
+#signup-section {
+    width: 700px;
+    height: 407px;
+    box-sizing: border-box;
+    float: right;
+    background-image: url(../images/s_bg.png);
+    padding: 40px;
+}
+
+#name {
+    width: 100%;
+    height: 30px;
+    background-color: inherit;
+    border: none;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    margin-top: 10px;
+    color: white;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+/*End Signup Section Code*/
+
+/*Start Contact page Sectipon Code*/
+#contact {
+    font-size: 20px;
+    color: white;
+    font-style: normal;
+    font-family: century gothic;
+    line-height: 40px;
+    margin-left: 10px;
+}
+
+#contact-section {
+    width: 700px;
+    height: 407px;
+    box-sizing: border-box;
+    float: right;
+    background-image: url(../images/s_bg.png);
+    padding: 40px;
+}
+
+fieldset {
+    margin-left: 135px;
+}
+
+/*End Contact page Section Code*/
+
+/*Start Product page Section Code*/
+#product-section {
+    width: 100%;
+    height: 2900px;
+    float: left;
+    box-sizing: border-box;
+}
+
+#brand {
+    width: 100%;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.8);
+    float: left;
+    box-sizing: border-box;
+}
+
+#brand-heading {
+    text-align: center;
+    font-family: century gothic;
+    font-size: 40px;
+}
+
+#brand-pick {
+    width: 200px;
+    height: 80px;
+    float: left;
+    box-sizing: border-box;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    margin: 34px;
+    margin-top: 10px;
+    background-color: white;
+
+}
+
+#brand-logo {
+    width: 100%;
+    height: 72px;
+}
+
+#search {
+    width: 60%;
+    height: 50px;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+    border: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    font-size: 18px;
+    padding: 10px;
+    background-image: url(../images/s_logo.png);
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#dove_products {
+    width: 100%;
+    height: 500px;
+    float: left;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#dove {
+    text-align: center;
+    color: white;
+    font-family: century gothic;
+    font-size: 35px;
+}
+
+#dove-products-pic {
+    width: 250px;
+    height: 320px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    float: left;
+    box-sizing: border-box;
+    margin: 42px;
+}
+
+#zest_products {
+    width: 100%;
+    height: 500px;
+    float: left;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#zest {
+    text-align: center;
+    color: white;
+    font-family: century gothic;
+    font-size: 35px;
+}
+
+#zest-products-pic {
+    width: 250px;
+    height: 320px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    float: left;
+    box-sizing: border-box;
+    margin: 42px;
+}
+
+#beauty_products {
+    width: 100%;
+    height: 500px;
+    float: left;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#beauty {
+    text-align: center;
+    color: white;
+    font-family: century gothic;
+    font-size: 35px;
+}
+
+#beauty-products-pic {
+    width: 250px;
+    height: 320px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    float: left;
+    box-sizing: border-box;
+    margin: 42px;
+}
+
+#personal_products {
+    width: 100%;
+    height: 500px;
+    float: left;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#personal {
+    text-align: center;
+    color: white;
+    font-family: century gothic;
+    font-size: 35px;
+}
+
+#personal-products-pic {
+    width: 250px;
+    height: 320px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    float: left;
+    box-sizing: border-box;
+    margin: 42px;
+}
+
+#amica_products {
+    width: 100%;
+    height: 500px;
+    float: left;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#amica {
+    text-align: center;
+    color: white;
+    font-family: century gothic;
+    font-size: 35px;
+}
+
+#amica-products-pic {
+    width: 250px;
+    height: 320px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    float: left;
+    box-sizing: border-box;
+    margin: 42px;
+}
+
+#product-name {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    margin-top: 7px;
+    font-size: 18px;
+}
+
+#price {
+    padding: 0;
+    margin: 0;
+    color: white;
+    margin: 8px;
+    font-family: sans-serif;
+    float: left;
+}
+
+#buy {
+    padding: 0;
+    margin: 0;
+    color: white;
+    margin: 8px;
+    font-family: sans-serif;
+    float: right;
+}
+
+#fas-logo {
+    color: rgba(16, 211, 182, 0.8);
+}
+
+/*End Product page section Code*/
+
+/*Start Footer Code*/
+footer {
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+
+/*End Footer Code*/
